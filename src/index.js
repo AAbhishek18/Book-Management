@@ -7,7 +7,7 @@ const mongoose = require("mongoose"); //ODM library for mongoDB
 const app = express(); //Assign express in app variable
 
 const multer= require("multer");//multer is a node.js middleware for handling multipart/form-data, which is primarily used for uploading files.
-const { AppConfig } = require('aws-sdk');//
+//const { AppConfig } = require('aws-sdk');//
 
 
 app.use(bodyParser.json()); //transforms the text-based JSON input into JS-accessible variables
